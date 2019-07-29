@@ -5,20 +5,37 @@ main {
     grid-template-rows: min-content 1fr;
 }
 
+#navpara {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    transform:translate(75px, 45px);
+    word-spacing: 100px; 
+    font-size: 20px;
+}
+
+#navimg {
+    grid-column: 1;
+    grid-row: 1;
+    transform:translate(-380px, 25px) 
+}
+
 #nav-items {
     grid-column: 1;
     grid-row: 1;
     background-color: lightgray;
     width: 1100px;
     height: 100px;
-    text-align: center;
     transform: translate(0px, 24px);
+    z-index: -5;
+    word-spacing: 100px;
+    grid-gap: 30px;
 }
 
 #nav-items img {
     grid-column: 1;
     grid-row: 1;
-    transform: translate(-318px, 16px);
+    transform: translate(-250px, 16px);
 }
 
 #big-pic img {
@@ -75,4 +92,15 @@ button {
 
 button:hover{
     background-color: lightblue;
+}
+
+#bottom {
+    grid-column: 1;
+    grid-row: 6;
+    background-color: lightgray;
+    width: 1100px;
+    height: 100px;
+    transform: translate(0px, -85px);
+    z-index: -5;
+    grid-gap: 30px;
 }
