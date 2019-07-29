@@ -8,6 +8,17 @@ main {
 #nav-items {
     grid-column: 1;
     grid-row: 1;
+    background-color: lightgray;
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    transform: translate(0px, 24px);
+}
+
+#nav-items img {
+    grid-column: 1;
+    grid-row: 1;
+    transform: translate(-318px, 16px);
 }
 
 #big-pic img {
